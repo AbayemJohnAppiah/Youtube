@@ -33,3 +33,35 @@
   background-color: rgb(244, 244, 244);
   cursor: pointer;
 }
+
+@media (max-width: 576px) {
+  .sidebar {
+    width: 30px;
+    font-size: 8px;
+    top: 30px;
+    left: 0;
+    bottom: 0px;
+    padding-top: 3px;
+  }
+
+  .home-icon,
+  .explore-icon,
+  .subscriptions-icon,
+  .originals-icon,
+  .youtube-music-icon,
+  .library-icon {
+    width: 15px;
+    margin-bottom: 2px;
+  }
+
+  .icon {
+    height: 40px;
+    width: 50px;
+  }
+
+  #music {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
